@@ -1,0 +1,26 @@
+This project was completed by David S. "Pat" Patterson on 2018-06-17.
+
+This Node.js application attempts to meet the basic requirements as layed out in the
+IQVIA take-home interview question instructions.
+
+The application was built and tested on a Ubuntu 16.04 linux system,
+with Node.js v8.11.1 and npm v5.6.0.
+
+To run the application in its default run scenario, simply do the following:
+1. cd to the ./fetch directory.
+2. Install the node_modules by running 'npm install'.
+3. Run the command 'node app'.
+
+   - The program will start up and attempt to contact the web service specified
+     in the instruction page.
+
+   - If this is successful, it will then download all the tweets available in
+     the time range specified (2016 - 2017).
+
+   - The results are output into the file tweets.log in JSON format.
+
+The program attempts to parameterize various details of the instructions
+in a config.js file.  In this file you can find settings for the debug
+level, tracing and assert control, data URL, date range, and max count
+of records returned by the data URL.
+

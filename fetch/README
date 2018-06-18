@@ -1,0 +1,2 @@
+If the Node.js node_modules directory tree is missing (e.g. fresh install), you will need to execute either 'npm install' or 'npm update'.
+
